@@ -14,7 +14,7 @@ This is a solution to the [Huddle landing page with single introductory section 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://yashika-sharma.github.io/huddle-landing-page-with-single-introductory-section-master/](https://yashika-sharma.github.io/huddle-landing-page-with-single-introductory-section-master/)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
