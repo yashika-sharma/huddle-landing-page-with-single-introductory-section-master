@@ -1,0 +1,208 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+
+main {
+	background-image: url(./images/bg-mobile.svg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 100vh;
+	width: 100%;
+	background-color: hsl(257, 40%, 49%);
+	display: flex;
+	flex-direction: column;
+}
+
+header {
+	display: flex;
+	flex-direction: row;
+	height: 13%;
+	padding: 0px 32px;
+	align-items: center;
+}
+
+.logo {
+	height: 37px;
+}
+
+.main-content {
+	display: flex;
+	flex-direction: column;
+}
+
+.mockup {
+	padding: 0px 30px;
+}
+
+.mockup img {
+	width: 100%;
+}
+
+.text {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	padding: 16px 30px;
+	align-items: center;
+}
+
+h2 {
+	font-family: "Poppins", sans-serif;
+	color: white;
+	font-weight: 400;
+}
+
+.text p {
+	color: white;
+	font-family: "Open Sans", sans-serif;
+	font-size: 15px;
+	padding: 0px 20px;
+	font-weight: 400;
+	line-height: 23px;
+	margin: 10px 0px;
+}
+
+.text button {
+	background-color: white;
+	padding: 10px 72px;
+	border: none;
+	border-radius: 19px;
+	color: hsl(257, 40%, 49%);
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
+	margin: 10px 0px;
+	font-size: 14px;
+	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.text button:hover {
+	background-color: hsl(300, 69%, 71%);
+	color: white;
+	box-shadow: 6px 6px 19px rgba(0, 0, 0, 0.5);
+}
+
+.social {
+	display: flex;
+	padding: 40px 0px 0px 0px;
+}
+
+.fb {
+	border-radius: 100%;
+	border: 1px solid white;
+	padding: 6px 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0px 6px;
+	color: white;
+}
+
+.twt {
+	border-radius: 100%;
+	border: 1px solid white;
+	padding: 7px 7px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0px 6px;
+	color: white;
+}
+
+.insta {
+	border-radius: 100%;
+	border: 1px solid white;
+	padding: 6px 7px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 17px;
+	margin: 0px 6px;
+	color: white;
+}
+
+.fb:hover,
+.twt:hover,
+.insta:hover {
+	border-color: hsl(300, 69%, 71%);
+	color: hsl(300, 69%, 71%);
+}
+
+@media only screen and (min-width: 376px) {
+	header {
+		height: 18%;
+		padding: 0px 70px;
+	}
+
+	main {
+		background-image: url(./images/bg-desktop.svg);
+	}
+
+	.main-content {
+		flex-direction: row;
+	}
+
+	.mockup {
+		padding: 46px 0px 0px 75px;
+		width: 55%;
+	}
+
+	.text {
+		width: 35%;
+		text-align: left;
+		padding: 85px 0px 0px 45px;
+
+		align-items: flex-start;
+	}
+	.logo {
+		height: 50px;
+	}
+
+	h2 {
+		font-size: 39px;
+		font-weight: 600;
+		margin: 0;
+		margin: 0px 50px 0px 0px;
+	}
+
+	.text p {
+		font-size: 17px;
+		padding: 20px 0px 0px 0px;
+	}
+	.text button {
+		padding: 15px 65px;
+		border-radius: 40px;
+		font-size: 16px;
+	}
+	.social {
+		align-self: flex-end;
+		align-items: flex-end;
+		width: 100%;
+		justify-content: flex-end;
+		margin: 180px 0px 0px 0px;
+	}
+
+	.fb {
+		padding: 11px 14px;
+		margin: 0px 6px;
+		font-size: 21px;
+		border-width: 1.8px;
+	}
+
+	.twt {
+		padding: 11px 11px;
+		margin: 0px 6px;
+		font-size: 21px;
+		border-width: 1.8px;
+	}
+
+	.insta {
+		padding: 10px 11px;
+		margin: 0px 6px;
+		font-size: 22px;
+		border-width: 1.8px;
+	}
+}
