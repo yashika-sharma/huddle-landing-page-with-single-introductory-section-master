@@ -14,7 +14,7 @@ This is a solution to the [Huddle landing page with single introductory section 
 
 ### Links
 
-- Solution URL: [https://yashika-sharma.github.io/huddle-landing-page-with-single-introductory-section-master/](https://yashika-sharma.github.io/huddle-landing-page-with-single-introductory-section-master/)
+- Solution URL: [https://www.frontendmentor.io/solutions/huddle-landing-page-DB9Y0wgGh](https://www.frontendmentor.io/solutions/huddle-landing-page-DB9Y0wgGh)
 - Live Site URL: [https://yashika-sharma.github.io/huddle-landing-page-with-single-introductory-section-master/](https://yashika-sharma.github.io/huddle-landing-page-with-single-introductory-section-master/)
 
 ## My process
